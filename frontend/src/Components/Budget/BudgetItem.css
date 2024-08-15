@@ -1,0 +1,18 @@
+@media only screen and (min-width: 767px) and (max-width: 1180px)
+{
+    .inner-content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .inner-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+}

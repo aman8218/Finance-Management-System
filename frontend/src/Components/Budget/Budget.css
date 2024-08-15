@@ -1,0 +1,18 @@
+@media only screen and (min-width: 767px) and (max-width: 1180px)
+{
+    .income-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 767px){
+    .income-content{
+        margin-right: 5rem;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+}

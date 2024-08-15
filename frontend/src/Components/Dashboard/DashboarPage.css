@@ -1,0 +1,9 @@
+.comp-con
+{
+    display: flex;
+}
+@media (max-width: 767px){
+    .comp-con{
+        width: 100vw;
+    }
+}

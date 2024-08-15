@@ -1,0 +1,8 @@
+@media (max-width: 767px)
+{
+    .component-con{
+        display: flex;  
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+}

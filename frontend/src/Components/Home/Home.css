@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767px)
+{
+    .home-con
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+    .text-con
+    {
+       margin-top: 1rem;
+    }
+    .text-con p,h3{
+        padding: 0.5rem;
+        width: 90%;
+        text-align: justify;
+    }
+}
